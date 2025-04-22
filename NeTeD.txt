@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Noodle Delight</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fff5e6;
+      color: #333;
+    }
+    header {
+      background: #ff6600;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      background: #ffe0cc;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #ff6600;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px;
+      background: url('noodles.jpg') center/cover no-repeat;
+      color: white;
+    }
+    .content {
+      padding: 20px;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .menu-item {
+      border: 1px solid #ddd;
+      padding: 10px;
+      background: #fff;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      background: #ff6600;
+      color: white;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Noodle Delight</h1>
+    <p>Fresh & Delicious Noodles Every Day!</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Welcome to Noodle Delight!</h2>
+    <p>Your favorite place for mouth-watering noodles</p>
+  </div>
+
+  <div class="content" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>Classic Chicken Noodles</h3>
+        <p>Spicy chicken with fresh noodles</p>
+      </div>
+      <div class="menu-item">
+        <h3>Veggie Delight</h3>
+        <p>Loaded with fresh vegetables</p>
+      </div>
+      <div class="menu-item">
+        <h3>Schezwan Noodles</h3>
+        <p>Hot and spicy with a kick!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="content" id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 123 Noodle Street, Food City</p>
+  </div>
+
+  <footer>
+    <p>© 2025 Noodle Delight. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
